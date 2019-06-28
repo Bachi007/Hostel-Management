@@ -1,0 +1,93 @@
+<html>
+<head>
+<title>view</title>
+<style type="text/css">
+.hd{
+background-color:grey;
+}
+.d{
+border:none;
+margin-left:120px;
+margin-right:120px;
+margin-top:8px;
+padding:6px;
+font-weight:bold;
+background-color:LightGreen;
+}
+a{
+color:white;
+font-weight:bold;
+margin-top:10px;
+background-color:black;
+border-radius:15px;
+padding:2px;
+text-decoration:none;
+
+}
+</style>
+</head>
+<body>
+<div class="hd"><center><h2>SRI VENKATESWARA UNIVERSITY</h2>
+<h3>HOSTEL FEES MANAGEMENT</h3></center>
+<hr size=2 color="yellow"></div>
+</div>
+
+<marquee behavior="alternate"><h4> please select the necessary options </h4></marquee>
+<center>
+<div class="d">
+<fieldset><legend>Students details</legend>
+<form action="view.jsp">
+Course:<select name="crs">
+<option value="mca">MCA</option>
+<option value="msc">MSC</option>
+<option value="mba">MBA</option>
+<option value="m.com">MCOM</option>
+</select>
+Hostel:<select name="hst">
+<option value="Mens">Mens</option>
+<option value="Womens">Womens</option>
+</select><br><br>
+<input type="submit" name="submit">
+<input type="reset" name="reset">
+</form> </fieldset>
+</div>
+<center>
+<div class="d">
+<fieldset><legend>Students fees details</legend>
+<form action="view2.jsp">
+Course:<select name="crs">
+<option value="mca">MCA</option>
+<option value="msc">MSC</option>
+<option value="mba">MBA</option>
+<option value="m.com">MCOM</option>
+</select>
+Hostel:<select name="hst">
+<option value="Mens">Mens</option>
+<option value="Womens">Womens</option>
+</select><br><br>
+<input type="submit" name="submit">
+<input type="reset" name="reset">
+</form> </fieldset>
+</div>
+
+<center>
+<div class="d">
+<fieldset><legend>Students(Freshers)</legend>
+<form action="view3.jsp">
+Course:<select name="crs">
+<option value="mca">MCA</option>
+<option value="msc">MSC</option>
+<option value="mba">MBA</option>
+<option value="m.com">MCOM</option>
+</select>
+Hostel:<select name="hst">
+<option value="Mens">Mens</option>
+<option value="Womens">Womens</option>
+</select><br><br>
+<input type="submit" name="submit">
+<input type="reset" name="reset">
+</form> </fieldset>
+</div>
+<center><a href="admin.html">click to Back</a></center>
+</body>
+</html>

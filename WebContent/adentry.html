@@ -1,0 +1,93 @@
+<html>
+<head>
+<title>adminentry</title>
+<style type="text/css">
+form{
+color="white";
+display:table;
+padding:18px;
+background-color:thistle;
+border:solid 2px red;
+font-weight:bold;
+}
+.row{
+display:table-row;
+}
+.row label{
+display:table-cell;
+padding:2px;
+text-align:left;
+}
+.row input{
+display:table-cell;
+padding:2px;
+}
+.hd{
+background-color:powderblue;
+}
+.mr{
+margin-left:10px;
+padding:5px;
+}
+a{
+float:left;
+color:white;
+font-weight:bold;
+margin-left:10px;
+background-color:black;
+border-radius:15px;
+padding:2px;
+text-decoration:none;
+
+}
+</style>
+</head>
+<body>
+<div class="hd"><center><h2>SRI VENKATESWARA UNIVERSITY</h2>
+<h3>HOSTEL FEES MANAGEMENT</h3></center>
+<hr size=4 color="yellow"></div>
+<center>
+<a href="admin.html">Back to home</a>
+<form action="store1.jsp">
+<div class="row">
+<label for="student name">Student name:</label>
+<input type="text" value="" name="sname"><br><br>
+</div>
+<div class="row"><label for="adno">Adno:</label>
+<input type="text" value="" name="adno"><br><br>
+</div>
+<div class="row"><label for="course">course:</label>
+<select name="crs"><option value="MCA">MCA&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</option><option value="MSC">MSC</option><option value="mba">MBA</option><option value="MCOM">MCOM</option></select>
+<br><br>
+</div>
+<div class="row"><label for="hm">Hostel name:</label>
+<input type="text" value="" name="hm"><br><br>
+</div>
+<div class="row"><label for="hm">Month:</label>
+<input type="month" name="mnt"><br><br>
+
+</div>
+
+<div class="row"><label for="days">Days:</label>
+<input type="text" value="" name="day"><br><br>
+</div>
+<div class="row"><label for="cp">Non_veg:</label>
+<input type="text" value="" name="cp"><br><br>
+</div>
+<div class="row"><label for="ld">Leave day:</label>
+<input type="text" value="" name="ld"><br><br>
+</div>
+<div class="row"><label for="scholarship">Scholarship:</label>
+<input type="text" value="" name="ss"><br><br>
+</div>
+<div class="row"><label for="scholarship">Candidate-paid:</label>
+<input type="text" value="" name="cp1"><br><br>
+
+</div>
+<div class="mr">
+<input type="submit" name="submit">
+<input type="reset" name="reset"></div>
+</form>
+</center>
+</body>
+</html>
